@@ -1,0 +1,111 @@
+<head>
+    <title></title>
+    <script src = "purchase.js"></script>
+    <style>
+    </style>
+</head>
+
+<body onload = "initialize();">
+<div class = "base"></div>
+<div class = "basetop">
+
+    <div class = "column">
+        <div class = "colcontent1">
+            <img class = "main" id = "currentimg"/>
+        </div>
+    </div>
+
+    <div class = "column">
+        <div id = "purchase" class = "colcontent2">
+            <h3><div id = "name"></div></h3>
+            <div id = "description"></div><br/>
+            <button onclick = "addToCart();">Add To Cart</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class = "related" id = "related" align = "center">Related Products:
+        <img class = "relatedProduct" onclick = "selectProduct(this,1);" />
+        <img class = "relatedProduct" onclick = "selectProduct(this,2);" />
+        <img class = "relatedProduct" onclick = "selectProduct(this,3);" />
+    </div>
+
+    <hr>
+    <div class = "reviews" align = "center">
+        Previous Reviews:
+        <div id = "all_reviews" >
+        </div>
+
+        <textarea class = "reviews" id = "review" rows = "5" cols = "50"></textarea><br/>
+        Rating:
+        <select id = "rating">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+        </select>
+        <button onclick = "submitReview();">Submit</button>
+
+        <div class = "top">
+            <ul>
+                <ol><button onclick = "cartToggle();">my cart</button></ol>
+                <ol><span id = "thecart"></span></ol>
+            </ul></div>
+    </div>
+</div>
+</body>
+
+
+<!--
+<div class = "base"></div>
+<div class = "basetop">
+
+    <div class = "column">
+        <div class = "colcontent1">
+            <img class = "main" id = "currentimg"/>
+        </div>
+    </div>
+
+    <div class = "column">
+        <div id = "purchase" class = "colcontent2">
+            <h3><div id = "name"></div></h3>
+            <div id = "description"></div><br/>
+            <button onclick = "addToCart();">Add To Cart</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class = "related" id = "related" align = "center">Related Products:
+        <img class = "relatedProduct" onclick = "selectProduct(this,1);" />
+        <img class = "relatedProduct" onclick = "selectProduct(this,2);" />
+        <img class = "relatedProduct" onclick = "selectProduct(this,3);" />
+    </div>
+
+    <hr>
+    <div class = "reviews" align = "center">
+        Previous Reviews:
+        <div id = "all_reviews" >
+        </div>
+
+        <textarea class = "reviews" id = "review" rows = "5" cols = "50"></textarea><br/>
+        Rating:
+        <select id = "rating">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+        </select>
+        <button onclick = "submitReview();">Submit</button>
+
+        <div class = "top">
+            <ul>
+                <ol><button onclick = "cartToggle();">my cart</button></ol>
+                <ol><span id = "thecart"></span></ol>
+            </ul></div>
+    </div>
+
+-->
