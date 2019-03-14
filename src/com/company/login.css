@@ -2,15 +2,16 @@ body
 {
     color: #3a3a3a;
     text-align:center;
+    background-image: url("bg.png");
 }
 .container
 {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 70px;
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
